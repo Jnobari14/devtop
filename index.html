@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENGENHARIA TOP | Tecnologia Operacional Personalizada</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+
+    <!-- Font Awesome para Ícones -->
+</head>
+
+<body>
+
+    <!-- HEADER & NAVEGAÇÃO -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="logo-main">ENGENHARIA TOP</span>
+                <span class="logo-sub">T.O.P. · Tecnologia Operacional Personalizada</span>
+            </a>
+
+            <nav class="nav" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#inicio" class="nav-link active">Início</a></li>
+                    <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#contato" class="nav-link btn-cta-nav">Fale Conosco</a></li>
+                </ul>
+            </nav>
+
+            <button class="btn-menu" id="btn-menu" aria-label="Abrir Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO SECTION (TELA INICIAL COM PESQUISA EM FOCO) -->
+    <section class="hero" id="inicio">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class=c>Inovação & Futuro</span>
+                <h1>Qual App Voce Inventaria ?</h1>
+                <p>Desenvolvimento de IA, agentes personalizados, ecossistemas web/mobile e consultoria estratégica com
+                    educação tecnológica.</p>
+                <!-- Barra de Pesquisa em Foco -->
+                <div class="search-container">
+                    <form class="search-form" id="hero-search">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                        <input type="text" placeholder="Do que sua operação precisa hoje? (Ex: Agente de Vendas IA)"
+                            required>
+                        <button type="submit" class="btn-search">Buscar Solução</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+
+    <!-- SEÇÃO DE SERVIÇOS -->
+    <section class="services" id="servicos">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossas Soluções</h2>
+                <p>Tecnologia sob medida para acelerar e educar o seu negócio.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Card 1 -->
+                <div class="service-card">
+                    <div class="card-icon"><i class="fa-solid fa-brain"></i></div>
+                    <h3>Desenvolvimento de IA</h3>
+                    <p>Criação de modelos inteligentes e integração de LLMs para automação de processos complexos.
+                    </p>
+                </div>
+                <!-- Card 2 -->
+                <div class="service-card">
+                    <div class="card-icon"><i class="fa-solid fa-robot"></i></div>
+                    <h3>Agentes IA Personalizados</h3>
+                    <p>Assistentes autônomos configurados especificamente para a rotina e dados da sua empresa.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="service-card">
+                    <div class="card-icon"><i class="fa-solid fa-code"></i></div>
+                    <h3>Sites & Apps Customizados</h3>
+                    <p>Plataformas digitais robustas, com design minimalista, focadas em alta conversão e
+                        experiência.
+                    </p>
+                </div>
+                <!-- Card 4 -->
+                <div class="service-card">
+                    <div class="card-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+                    <h3>Consultoria & Educação</h3>
+                    <p>Orientação estratégica, gestão de implementação e aculturamento digital para a sua equipe.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 ENGENHARIA TOP. Todos os direitos reservados.</p>
+            <p class="footer-sub">Tecnologia Operacional Personalizada</p>
+        </div>
+    </footer>
+
+    <!-- MODAL DE CONFIRMAÇÃO DA BUSCA -->
+    <div class="modal" id="search-modal">
+        <div class="modal-content">
+            <button class="close-modal" id="close-modal">&times;</button>
+            <div class="modal-body">
+                <i class="fa-regular fa-circle-check success-icon"></i>
+                <h3>Sua busca foi registrada!</h3>
+                <p>Nossos Engenheiros de IA estão analisando a melhor abordagem para o seu ecossistema. Entraremos
+                    em
+                    contato.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
